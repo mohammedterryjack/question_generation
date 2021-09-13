@@ -822,11 +822,14 @@ and wait ...is that "how much would you steal?" i see? and ..."that all fart"!!!
 
 ![](img/dailydialog/semi_trained_example2.png)
 
-I've included the trained model weights `lstm_dailydialog.hdf5` so that the model can be loaded and played around with.  Enjoy!
+I've included the trained model weights `lstm_dailydialog.hdf5` so that the model can be loaded and played around with (`interact_lstm.py`) (trained for 82 epochs with a loss of 1.207 - but the training still hasnt converged fully so feel free to run `train_lstm_dailydialog.py` to further fine-tune it). Enjoy! 
+
+![](img/dailydialog/example_generation.png)
+![](img/dailydialog/example_generation2.png)
 
 ---
 
-The above is also provided in this Colab Notebook if you wish to follow along
+All the above is also provided in this repo and a Colab Notebook if you wish to follow along
 
 ---
 
