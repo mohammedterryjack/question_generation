@@ -43,7 +43,6 @@ class SemanticCaptioningCharacterLSTM:
             optimisation= "adam",
             weights=path_to_model_weights,
         )
-        self.prior_probability = .5
 
     def train(
         self, questions:List[str], 
